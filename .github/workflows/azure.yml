@@ -8,6 +8,9 @@ on:
 env:
   AZURE_LOCATION: westeurope
 
+permissions:
+  id-token: write
+
 jobs:
   build:
     name: Provision Azure Infrastructure
